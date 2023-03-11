@@ -7,5 +7,5 @@ st.title('GIẢI PHƯƠNG TRÌNH BẬC NHẤT')
 st.balloons()
 if st.button('Giải'):
   if (a==0 && b==0): st.write('Phuong trinh co vo so nghiem')
-  if (a==0 && b><0): st.write('Phuong trinh vo nghiem')
+  if (a==0 && b!=0): st.write('Phuong trinh vo nghiem')
   else: st.write('Phương trình có 1 nghiệm',-b/a)
