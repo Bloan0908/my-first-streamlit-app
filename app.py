@@ -1,5 +1,5 @@
 import streamlit as st
-import scikit-learn
+import scilearn
 import plotly
 a=st.number_input('Tham số a')
 b=st.number_input('Tham số b')
